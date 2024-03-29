@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7eda5626-53d2-4694-86f6-3376939d5cb0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Scripts/Player/PlayerAnimator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/105DA115-9EC9-496A-B931-0694C7B11DD2/dd/1fb055ea/IDisposable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Scripts/Core/GlobalInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../25 2D/Assets/Source/Scripts/Player/Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Scripts/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../25 2D/Assets/Source/Scripts/Player/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F5B293C7-4049-457C-ABC2-8437C5A76392/1d/3d2cca25/ITickable.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Cainos/Pixel Art Platformer - Village Props/Script/MovingPlatform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Cainos/Pixel Art Platformer - Village Props/Script/Editor/ChestEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Cainos/Pixel Art Platformer - Village Props/Script/Elevator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/PlayerConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/NewBehaviourScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/GlobalInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/PlayerConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/IInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/MobileInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/IMovable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/Config/PlayerConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/Ground.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/DesktopInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/MovementHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/GameplaySceneInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/GroundChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/RecallStone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/PlayerAnimator.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2dwvenBFvs9UyfIQSVoV84W6gPo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7eda5626-53d2-4694-86f6-3376939d5cb0" name="Default Changelist" comment="" />
+      <created>1710932072649</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710932072649</updated>
+      <workItem from="1710932076843" duration="986000" />
+      <workItem from="1710953885482" duration="3017000" />
+      <workItem from="1710965796998" duration="957000" />
+      <workItem from="1711184164712" duration="4511000" />
+      <workItem from="1711207173627" duration="1485000" />
+      <workItem from="1711208820022" duration="2401000" />
+      <workItem from="1711211296181" duration="1124000" />
+      <workItem from="1711288587158" duration="2952000" />
+      <workItem from="1711292753490" duration="4799000" />
+      <workItem from="1711379883521" duration="8561000" />
+      <workItem from="1711533007789" duration="9314000" />
+      <workItem from="1711558314572" duration="4284000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="794" y="261" key="RiderGenerateDialog" timestamp="1711208881072">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="794" y="261" key="RiderGenerateDialog/0.40.1920.1040/-1920.42.1920.1038@0.40.1920.1040" timestamp="1711208881072" />
+  </component>
+</project>
