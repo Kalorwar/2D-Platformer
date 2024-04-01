@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7eda5626-53d2-4694-86f6-3376939d5cb0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/2D-Platformer" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Source/Scripts/Player/PlayerAnimator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -34,15 +55,18 @@
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/Ground.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/DesktopInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/MovementHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/GameplaySceneInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/GroundChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/RecallStone.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/PlayerAnimator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/GameplaySceneInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/UI/Tips/TipsTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/UI/Tips/TipsAnimator.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="2dwvenBFvs9UyfIQSVoV84W6gPo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -94,6 +118,8 @@
       <workItem from="1711379883521" duration="8561000" />
       <workItem from="1711533007789" duration="9314000" />
       <workItem from="1711558314572" duration="4284000" />
+      <workItem from="1711955298235" duration="2938000" />
+      <workItem from="1711960173736" duration="1672000" />
     </task>
     <servers />
   </component>
@@ -102,13 +128,24 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="794" y="261" key="RiderGenerateDialog" timestamp="1711208881072">
+    <state x="794" y="261" key="RiderGenerateDialog" timestamp="1711961591288">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="794" y="261" key="RiderGenerateDialog/0.40.1920.1040/-1920.42.1920.1038@0.40.1920.1040" timestamp="1711208881072" />
+    <state x="794" y="261" key="RiderGenerateDialog/0.40.1920.1040/-1920.42.1920.1038@0.40.1920.1040" timestamp="1711961591288" />
   </component>
 </project>

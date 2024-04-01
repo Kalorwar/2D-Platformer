@@ -27,9 +27,9 @@
     </explicitIncludes>
     <explicitExcludes>
       <Path>.idea</Path>
+      <Path>2D-Platformer</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
-      <Path>Temp</Path>
       <Path>UserSettings</Path>
       <Path>obj</Path>
     </explicitExcludes>

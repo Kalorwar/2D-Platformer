@@ -6,7 +6,6 @@ public class GameplaySceneInstaller : MonoInstaller
     [SerializeField] private Transform _playerSpawnPoint;
     [SerializeField] private Player _player;
     [SerializeField] private PlayerConfig _playerConfig;
-    
     public override void InstallBindings()
     {
         BindMovement();
