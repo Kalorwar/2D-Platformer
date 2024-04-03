@@ -7,6 +7,7 @@ public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
 {
     private float _health;
     private float _maxHealth;
+    private bool _isDie;
 
     [Inject]
     private void Constructor(PlayerConfig config)
@@ -37,6 +38,11 @@ public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
         {
             IsGround = true;
         }
+
+        if (collider.TryGetComponent<DeathZone>(out DeathZone deathZone))
+        {
+            Die();
+        }
     }
     
     private void OnTriggerExit2D(Collider2D collider)
@@ -49,13 +55,23 @@ public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
 
     public void TakeDamage(float damage)
     {
-        if (damage < 0)
+        if(_isDie)
+            return;
+        if (damage > 0)
         {
-            throw new ArgumentException("Damage must be positive");
+            _health -= damage;
+            if (_health <= 0)
+                Die();
         }
         else
         {
-            _health -= damage;
+            throw new ArgumentException("Damage must be positive");
         }
+    }
+
+    private void Die()
+    {
+        _isDie = true;
+        Destroy(gameObject);
     }
 }

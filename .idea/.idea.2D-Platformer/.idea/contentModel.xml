@@ -1186,6 +1186,13 @@
               <e p="MobileInput.cs" t="Include" />
               <e p="MovementHandler.cs" t="Include" />
             </e>
+            <e p="Level" t="Include">
+              <e p="DeathZone.cs" t="Include" />
+              <e p="Ground" t="Include">
+                <e p="Ground.cs" t="Include" />
+              </e>
+              <e p="Trap.cs" t="Include" />
+            </e>
             <e p="Player" t="Include">
               <e p="Config" t="Include">
                 <e p="PlayerConfig.cs" t="Include" />
@@ -1195,12 +1202,6 @@
               <e p="Player.cs" t="Include" />
               <e p="PlayerAnimator.cs" t="Include" />
               <e p="RecallStone.cs" t="Include" />
-              <e p="Trap.cs" t="Include" />
-            </e>
-            <e p="Surfaces" t="Include">
-              <e p="Ground" t="Include">
-                <e p="Ground.cs" t="Include" />
-              </e>
             </e>
             <e p="UI" t="Include">
               <e p="Tips" t="Include">

@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d01d7acb-32f4-489d-8f3f-e6e179a87481" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Platformer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Platformer/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Platformer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Platformer/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Platformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Animations/PlayerAnimations.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Animations/PlayerAnimations.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Resources/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Resources/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/GameplaySceneInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Core/GameplaySceneInstaller.cs" afterDir="false" />
-    </list>
+    <list default="true" id="d01d7acb-32f4-489d-8f3f-e6e179a87481" name="Default Changelist" comment="Added DeathZone, PlayerDie and TrapDamage" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +27,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Scripts/Level/DeathZone.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Level/DeathZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Level/Trap.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="2eVSZ2M91rYvMwrifcBc3CowHR2" />
   <component name="ProjectViewState">
@@ -59,7 +81,17 @@
       <option name="presentableId" value="Default" />
       <updated>1711988307494</updated>
       <workItem from="1711988311161" duration="115000" />
+      <workItem from="1711988954502" duration="600000" />
+      <workItem from="1712160265358" duration="2245000" />
     </task>
+    <task id="LOCAL-00001" summary="Added DeathZone, PlayerDie and TrapDamage">
+      <created>1712168305719</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712168305719</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,7 +99,26 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Added DeathZone, PlayerDie and TrapDamage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added DeathZone, PlayerDie and TrapDamage" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="293" key="Vcs.Push.Dialog.v2" timestamp="1712168315678">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="552" y="293" key="Vcs.Push.Dialog.v2/0.40.1920.1040/-1920.42.1920.1038@0.40.1920.1040" timestamp="1712168315678" />
   </component>
 </project>
