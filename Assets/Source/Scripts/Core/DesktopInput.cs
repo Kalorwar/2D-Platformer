@@ -7,6 +7,9 @@ public class DesktopInput : IInput, ITickable
     public event Action OnClickUp;
     public event Action OnClickLeft;
     public event Action OnClickRight;
+    public event Action NotClickUp;
+    public event Action NotClickLeft;
+    public event Action NotClickRight;
 
     public void Tick()
     {
@@ -16,5 +19,11 @@ public class DesktopInput : IInput, ITickable
             OnClickRight?.Invoke();
         if (Input.GetKeyDown(KeyCode.W))
             OnClickUp?.Invoke();
+        if (Input.GetKeyUp(KeyCode.A))
+            NotClickLeft?.Invoke();
+        if(Input.GetKeyUp(KeyCode.D))
+            NotClickRight?.Invoke();
+        if (Input.GetKeyUp(KeyCode.W))
+            NotClickUp?.Invoke();
     }
 }

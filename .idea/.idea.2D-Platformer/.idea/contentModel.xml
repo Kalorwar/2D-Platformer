@@ -1206,8 +1206,8 @@
             <e p="UI" t="Include">
               <e p="Tips" t="Include">
                 <e p="ITrigger.cs" t="Include" />
+                <e p="PlayerTrigger.cs" t="Include" />
                 <e p="TipsAnimator.cs" t="Include" />
-                <e p="TipsTrigger.cs" t="Include" />
               </e>
             </e>
           </e>

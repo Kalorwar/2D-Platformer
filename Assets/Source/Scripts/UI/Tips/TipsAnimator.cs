@@ -1,38 +1,24 @@
-using System;
-using TMPro;
 using UnityEngine;
-using Zenject;
 
-[RequireComponent(typeof(Animator))]
-public class TipsAnimator : MonoBehaviour
+public class TipsAnimator : PlayerTrigger
 {
-    public static Action<string> OnTriggerEnter;
-    public static Action OnTriggerExit;
-    
-    [SerializeField] private TMP_Text _messageText;
-    private Animator _animator;
+   [SerializeField] private Animator _animator;
     private int _activeTips;
 
     private void OnEnable()
     {
-       OnTriggerEnter += TipFadeOut;
-       OnTriggerExit += TipFadeIn;
+       PlayerEnter += TipFadeOut;
+       PlayerExit += TipFadeIn;
     }
 
     private void OnDisable()
     {
-       OnTriggerEnter -= TipFadeOut;
-       OnTriggerExit -= TipFadeIn;
+        PlayerEnter -= TipFadeOut;
+        PlayerExit -= TipFadeIn;
     }
 
-    private void Awake()
+   private void TipFadeOut()
     {
-        _animator = GetComponent<Animator>();
-    }
-
-    private void TipFadeOut(string message)
-    {
-        _messageText.text = message;
         _animator.SetInteger("State", ++_activeTips);
     }
 

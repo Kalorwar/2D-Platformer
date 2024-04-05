@@ -5,9 +5,8 @@ using Zenject;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
 {
-    private float _health;
+    [SerializeField] private float _health;
     private float _maxHealth;
-    private bool _isDie;
 
     [Inject]
     private void Constructor(PlayerConfig config)
@@ -20,6 +19,7 @@ public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
     public float Speed { get; private set; }
     public float JumpForce { get; private set; }
     public bool IsGround { get; private set; }
+    public bool IsDie { get; private set; }
     public Rigidbody2D Rigidbody { get; private set; }
 
     private void Awake()
@@ -55,7 +55,7 @@ public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
 
     public void TakeDamage(float damage)
     {
-        if(_isDie)
+        if(IsDie)
             return;
         if (damage > 0)
         {
@@ -71,7 +71,6 @@ public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
 
     private void Die()
     {
-        _isDie = true;
-        Destroy(gameObject);
+        IsDie = true;
     }
 }
