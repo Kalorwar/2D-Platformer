@@ -28,8 +28,7 @@ public class PlayerAnimator : MonoBehaviour
       _input.OnClickRight += ClickRight;
       _input.OnClickLeft += ClickLeft;
       _input.OnClickUp += Jump;
-      _input.NotClickRight += NotClick;
-      _input.NotClickLeft += NotClick;
+      _input.OnButtonUp += ButtonUp;
    }
 
    private void OnDisable()
@@ -37,43 +36,46 @@ public class PlayerAnimator : MonoBehaviour
       _input.OnClickRight -= ClickRight;
       _input.OnClickLeft -= ClickLeft;
       _input.OnClickUp -= Jump;
-      _input.NotClickRight -= NotClick;
-      _input.NotClickLeft -= NotClick;
+      _input.OnButtonUp -= ButtonUp;
    }
 
    private void Update()
    {
-      if (!_player.IsDie)
-      {
-         Falling();
-      }
+      Falling();
       Die();
-
-      if(_player.IsGround)
-         _animator.SetBool("OnClickUp", false);
-      
+      GroundCheck();
    }
 
    private void ClickRight()
    {
+      if (_player.IsDie)
+         return;
+      
       _spriteRenderer.flipX = false; 
       _velocity = 1;
       _velocity = Math.Clamp(_velocity, 0, 1);
       _animator.SetFloat("Velocity", _velocity);
    }
 
-   private void NotClick()
-   {
-      _velocity = 0;
-      _animator.SetFloat("Velocity", _velocity);
-   }
-
    private void ClickLeft()
    {
-      
+      if (_player.IsDie)
+          return;
       _spriteRenderer.flipX = true;
       _velocity = 1;
       _velocity = Math.Clamp(_velocity, 0, 1);
+      _animator.SetFloat("Velocity", _velocity);
+   }
+   
+   private void GroundCheck()
+   {
+      if(_player.IsGround)
+         _animator.SetBool("OnClickUp", false);
+   }
+
+   private void ButtonUp()
+   {
+      _velocity = 0;
       _animator.SetFloat("Velocity", _velocity);
    }
 

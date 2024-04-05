@@ -3599,6 +3599,7 @@ GameObject:
   - component: {fileID: 533640980}
   - component: {fileID: 533640979}
   - component: {fileID: 533640981}
+  - component: {fileID: 533640982}
   m_Layer: 0
   m_Name: DeathZone
   m_TagString: Untagged
@@ -3616,7 +3617,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -3.464676, y: 2.5764713}
@@ -3657,6 +3658,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30fe9bd41c29ded40995c591157f6dff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &533640982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533640978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c096d183273ed74eb05cf203d876c57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &543429068
@@ -5647,7 +5660,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 791768320}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 28.15, y: 2.61, z: -0.94302946}
+  m_LocalPosition: {x: 72.2, y: 11.3, z: -0.94302946}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

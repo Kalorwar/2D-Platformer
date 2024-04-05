@@ -38,11 +38,6 @@ public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
         {
             IsGround = true;
         }
-
-        if (collider.TryGetComponent<DeathZone>(out DeathZone deathZone))
-        {
-            Die();
-        }
     }
     
     private void OnTriggerExit2D(Collider2D collider)
@@ -50,6 +45,14 @@ public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
         if (collider.gameObject.TryGetComponent<Ground>(out Ground ground))
         {
             IsGround = false;
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.TryGetComponent<DeathZone>(out DeathZone deathZone))
+        {
+            Die();
         }
     }
 

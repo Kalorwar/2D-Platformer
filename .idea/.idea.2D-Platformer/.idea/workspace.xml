@@ -20,25 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d01d7acb-32f4-489d-8f3f-e6e179a87481" name="Default Changelist" comment="Added DeathZone, PlayerDie and TrapDamage">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sign 01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sign 01.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Animations/PlayerAnimations.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Animations/PlayerAnimations.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Animations/Text/TipFadeIn.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Animations/Text/TipFadeIn.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Animations/Text/TipFadeOut.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Animations/Text/TipFadeOut.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Resources/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Resources/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/DesktopInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Core/DesktopInput.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/IInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Core/IInput.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/MobileInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Core/MobileInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/MovementHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Core/MovementHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Player/IHitable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Player/IHitable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Level/DeathZone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Level/DeathZone.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Player/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Player/PlayerAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Player/PlayerAnimator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/UI/Tips/TipsAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/UI/Tips/TipsAnimator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/UI/Tips/TipsTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/UI/Tips/PlayerTrigger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/UI/Tips/TipsTrigger.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/UI/Tips/PlayerTrigger.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,19 +45,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Level/DeathZone.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Level/Trap.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/UI/Tips/TipsTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/UI/Tips/PlayerTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/UI/Tips/TipsAnimator.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/IHitable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/MovementHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/GameplaySceneInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/IInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/DesktopInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/PlayerAnimator.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/MobileInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/DesktopInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/IInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Level/DeathZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/PlayerAnimator.cs" />
       </list>
     </option>
   </component>
@@ -116,6 +107,7 @@
       <workItem from="1712168450092" duration="10000" />
       <workItem from="1712313631883" duration="4352000" />
       <workItem from="1712319234303" duration="3377000" />
+      <workItem from="1712323376006" duration="1007000" />
     </task>
     <task id="LOCAL-00001" summary="Added DeathZone, PlayerDie and TrapDamage">
       <created>1712168305719</created>
