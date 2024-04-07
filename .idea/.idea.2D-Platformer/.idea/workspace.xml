@@ -20,16 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d01d7acb-32f4-489d-8f3f-e6e179a87481" name="Default Changelist" comment="Added DeathZone, PlayerDie and TrapDamage">
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stone of Recall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stone of Recall.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Animations/PlayerAnimations.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Animations/PlayerAnimations.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/DesktopInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Core/DesktopInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/IInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Core/IInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/MobileInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Core/MobileInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Level/DeathZone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Level/DeathZone.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Resources/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Resources/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Player/Config/PlayerConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Player/Config/PlayerConfig.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Player/IHitable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Player/IHitable.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Player/PlayerAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Player/PlayerAnimator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Player/RecallStone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Player/RecallStone.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,24 +51,41 @@
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/UI/Tips/TipsTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/UI/Tips/PlayerTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/UI/Tips/TipsAnimator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/IHitable.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/MovementHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/GameplaySceneInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/MobileInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/DesktopInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/IInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Level/DeathZone.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/IHitable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/UI/Player/PlayerHealthUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/PlayerAnimator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/Config/PlayerConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/RecallStone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelCell.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/FadePanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/PauseService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/IPause.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelProgress.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/TranslateService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/TextTranslator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/SaveService.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="2eVSZ2M91rYvMwrifcBc3CowHR2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -108,6 +127,8 @@
       <workItem from="1712313631883" duration="4352000" />
       <workItem from="1712319234303" duration="3377000" />
       <workItem from="1712323376006" duration="1007000" />
+      <workItem from="1712390527634" duration="2344000" />
+      <workItem from="1712479240888" duration="3038000" />
     </task>
     <task id="LOCAL-00001" summary="Added DeathZone, PlayerDie and TrapDamage">
       <created>1712168305719</created>

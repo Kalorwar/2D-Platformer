@@ -5,17 +5,17 @@ using Zenject;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
 {
-    [SerializeField] private float _health;
-    private float _maxHealth;
+    private PlayerHealthUI _playerHealthUI;
 
     [Inject]
     private void Constructor(PlayerConfig config)
     {
         Speed = config.Speed;
         JumpForce = config.JumpForce;
-        _health = config.Health;
+        Health = config.Health;
     }
     
+    [field: SerializeField] public float Health { get; private set; }
     public float Speed { get; private set; }
     public float JumpForce { get; private set; }
     public bool IsGround { get; private set; }
@@ -25,11 +25,7 @@ public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
     private void Awake()
     {
         Rigidbody = GetComponent<Rigidbody2D>();
-    }
-
-    private void Start()
-    {
-        _maxHealth = _health;
+        _playerHealthUI = GetComponent<PlayerHealthUI>();
     }
 
     private void OnTriggerEnter2D(Collider2D collider)
@@ -62,14 +58,15 @@ public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
             return;
         if (damage > 0)
         {
-            _health -= damage;
-            if (_health <= 0)
+            Health -= damage;
+            if (Health <= 0)
                 Die();
         }
         else
         {
             throw new ArgumentException("Damage must be positive");
         }
+        _playerHealthUI.HeartsCountChange();
     }
 
     private void Die()

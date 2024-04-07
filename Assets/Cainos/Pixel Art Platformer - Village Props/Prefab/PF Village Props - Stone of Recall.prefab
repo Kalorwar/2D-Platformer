@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2183321564951531329}
   - component: {fileID: 2183321564951531334}
+  - component: {fileID: 7478853227189042637}
   m_Layer: 0
   m_Name: PF Village Props - Stone of Recall
   m_TagString: Untagged
@@ -85,6 +86,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7478853227189042637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2183321564951531335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a7086e0620f0c49bbfb24c554e0a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _glow: {fileID: 8773235307849620067}
 --- !u!1 &2319273174036298326
 GameObject:
   m_ObjectHideFlags: 0

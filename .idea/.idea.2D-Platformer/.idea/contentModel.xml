@@ -5,6 +5,7 @@
     <e p="C:\Users\User\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_2D-Platformer.1358141311.00" t="ExcludeRecursive" />
     <e p="D:\Unity\Platformer\2D-Platformer" t="IncludeRecursive">
       <e p="2D-Platformer.sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -164,6 +165,48 @@
           <e p="normal_ui_set A" t="Include" />
         </e>
         <e p="Plugins" t="Include">
+          <e p="Demigiant" t="Include">
+            <e p="DOTween" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Imgs" t="Include" />
+              </e>
+              <e p="Modules" t="Include">
+                <e p="DOTweenModuleAudio.cs" t="Include" />
+                <e p="DOTweenModuleEPOOutline.cs" t="Include" />
+                <e p="DOTweenModulePhysics.cs" t="Include" />
+                <e p="DOTweenModulePhysics2D.cs" t="Include" />
+                <e p="DOTweenModuleSprite.cs" t="Include" />
+                <e p="DOTweenModuleUI.cs" t="Include" />
+                <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+                <e p="DOTweenModuleUtils.cs" t="Include" />
+              </e>
+              <e p="ReadMe.txt" t="Include" />
+            </e>
+          </e>
+          <e p="Udar" t="Include">
+            <e p="SceneField" t="Include">
+              <e p="Examples" t="Include">
+                <e p="Scenes" t="Include" />
+                <e p="Scripts" t="Include">
+                  <e p="SceneFieldExample.cs" t="Include" />
+                  <e p="Udar.SceneManager.Examples.asmdef" t="Include" />
+                </e>
+              </e>
+              <e p="ReadMe.txt" t="Include" />
+              <e p="Scripts" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="SceneFieldProperty.cs" t="Include" />
+                </e>
+                <e p="Runtime" t="Include">
+                  <e p="SceneCompositeSO.cs" t="Include" />
+                  <e p="SceneField.cs" t="Include" />
+                  <e p="SceneFieldComposite.cs" t="Include" />
+                  <e p="SceneFieldRef.cs" t="Include" />
+                  <e p="Udar.SceneManager.asmdef" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
           <e p="Zenject" t="Include">
             <e p="LICENSE.txt" t="Include" />
             <e p="OptionalExtras" t="Include">
@@ -1169,6 +1212,7 @@
             <e p="zenject.asmdef" t="Include" />
           </e>
         </e>
+        <e p="Resources" t="Include" />
         <e p="Scenes" t="Include" />
         <e p="Source" t="Include">
           <e p="Animations" t="Include">
@@ -1185,6 +1229,19 @@
               <e p="IMovable.cs" t="Include" />
               <e p="MobileInput.cs" t="Include" />
               <e p="MovementHandler.cs" t="Include" />
+              <e p="Services" t="Include">
+                <e p="FadePanel.cs" t="Include" />
+                <e p="IPause.cs" t="Include" />
+                <e p="LevelCell.cs" t="Include" />
+                <e p="LevelData.cs" t="Include" />
+                <e p="LevelProgress.cs" t="Include" />
+                <e p="LevelStateMachine.cs" t="Include" />
+                <e p="PauseService.cs" t="Include" />
+                <e p="SaveService.cs" t="Include" />
+                <e p="SceneService.cs" t="Include" />
+                <e p="TextTranslator.cs" t="Include" />
+                <e p="TranslateService.cs" t="Include" />
+              </e>
             </e>
             <e p="Level" t="Include">
               <e p="DeathZone.cs" t="Include" />
@@ -1204,6 +1261,9 @@
               <e p="RecallStone.cs" t="Include" />
             </e>
             <e p="UI" t="Include">
+              <e p="Player" t="Include">
+                <e p="PlayerHealthUI.cs" t="Include" />
+              </e>
               <e p="Tips" t="Include">
                 <e p="ITrigger.cs" t="Include" />
                 <e p="PlayerTrigger.cs" t="Include" />
@@ -1306,6 +1366,8 @@
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\Bin" t="ExcludeRecursive" />
+      <e p="Udar.SceneManager.csproj" t="IncludeRecursive" />
+      <e p="Udar.SceneManager.Examples.csproj" t="IncludeRecursive" />
       <e p="Zenject-Editor.csproj" t="IncludeRecursive" />
       <e p="Zenject-IntegrationTests-Editor.csproj" t="IncludeRecursive" />
       <e p="Zenject-IntegrationTests.csproj" t="IncludeRecursive" />

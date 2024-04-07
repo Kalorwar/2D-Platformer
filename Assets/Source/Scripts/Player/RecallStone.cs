@@ -9,7 +9,7 @@ public class RecallStone : MonoBehaviour
     {
         if (collider.gameObject.GetComponent<Player>())
         {
-            _glow.sortingOrder = 0;
+            _glow.gameObject.SetActive(true);
         }
     }
 }
