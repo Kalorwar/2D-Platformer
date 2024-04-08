@@ -10,6 +10,7 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="2D Pixel Art Platformer Biome - Plains" t="Include" />
         <e p="Cainos" t="Include">
           <e p="Common" t="Include">
             <e p="Script" t="Include">
@@ -1249,6 +1250,9 @@
                 <e p="Ground.cs" t="Include" />
               </e>
               <e p="Trap.cs" t="Include" />
+            </e>
+            <e p="Menu" t="Include">
+              <e p="MeinMenu.cs" t="Include" />
             </e>
             <e p="Player" t="Include">
               <e p="Config" t="Include">

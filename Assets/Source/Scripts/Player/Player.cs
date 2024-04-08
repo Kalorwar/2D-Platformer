@@ -28,7 +28,7 @@ public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
         _playerHealthUI = GetComponent<PlayerHealthUI>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collider)
+    private void OnTriggerStay2D(Collider2D collider)
     {
         if (collider.gameObject.TryGetComponent<Ground>(out Ground ground))
         {
