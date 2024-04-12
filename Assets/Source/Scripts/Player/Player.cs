@@ -1,10 +1,15 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using Zenject;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
 {
+    public event Action OnDie;
+    
+    [SerializeField] private List<RecallStone> _recallStones;
+    
     private PlayerHealthUI _playerHealthUI;
 
     [Inject]
@@ -33,6 +38,13 @@ public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
         if (collider.gameObject.TryGetComponent<Ground>(out Ground ground))
         {
             IsGround = true;
+        }
+
+        if (collider.gameObject.TryGetComponent<RecallStone>(out RecallStone recallStone))
+        {
+            if(_recallStones.Contains(recallStone))
+                return;
+            _recallStones.Add(recallStone);
         }
     }
     
@@ -72,5 +84,6 @@ public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
     private void Die()
     {
         IsDie = true;
+        OnDie?.Invoke();
     }
 }

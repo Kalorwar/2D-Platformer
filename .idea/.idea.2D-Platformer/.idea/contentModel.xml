@@ -1232,6 +1232,7 @@
               <e p="MovementHandler.cs" t="Include" />
               <e p="Services" t="Include">
                 <e p="FadePanel.cs" t="Include" />
+                <e p="FailPanel.cs" t="Include" />
                 <e p="IPause.cs" t="Include" />
                 <e p="LevelCell.cs" t="Include" />
                 <e p="LevelData.cs" t="Include" />
