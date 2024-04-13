@@ -299,6 +299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c79d34cfb2dc734aa342a9849241b0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _recallStones: []
   <Health>k__BackingField: 0
 --- !u!70 &741407107680916587
 CapsuleCollider2D:
@@ -549,7 +550,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6
+  orthographic size: 7
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2

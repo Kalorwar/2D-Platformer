@@ -9,11 +9,13 @@ public class PlayerAnimator : MonoBehaviour
    private float _velocity;
    private Player _player;
    private IInput _input;
+   private LevelStateMachine _levelStateMachine;
 
    [Inject]
-   private void Conscturcor(IInput input)
+   private void Conscturcor(IInput input, LevelStateMachine levelStateMachine)
    {
       _input = input;
+      _levelStateMachine = levelStateMachine;
    }
 
    private void Awake()
@@ -29,6 +31,7 @@ public class PlayerAnimator : MonoBehaviour
       _input.OnClickLeft += ClickLeft;
       _input.OnClickUp += Jump;
       _input.OnButtonUp += ButtonUp;
+      _levelStateMachine.OnStateChange += LevelStateHandle;
    }
 
    private void OnDisable()
@@ -37,18 +40,26 @@ public class PlayerAnimator : MonoBehaviour
       _input.OnClickLeft -= ClickLeft;
       _input.OnClickUp -= Jump;
       _input.OnButtonUp -= ButtonUp;
+      _levelStateMachine.OnStateChange += LevelStateHandle;
    }
 
    private void Update()
    {
       Falling();
-      Die();
       GroundCheck();
+   }
+
+   private void LevelStateHandle(LevelState state)
+   {
+      if (state == LevelState.Die || state == LevelState.Fail)
+         Die();
+      if(state == LevelState.Game)
+         Resurrection();
    }
 
    private void ClickRight()
    {
-      if (_player.IsDie)
+      if (_levelStateMachine.CurrenLevelState == LevelState.Die || _levelStateMachine.CurrenLevelState == LevelState.Fail)
          return;
       
       _spriteRenderer.flipX = false; 
@@ -59,8 +70,9 @@ public class PlayerAnimator : MonoBehaviour
 
    private void ClickLeft()
    {
-      if (_player.IsDie)
-          return;
+      if (_levelStateMachine.CurrenLevelState == LevelState.Die || _levelStateMachine.CurrenLevelState == LevelState.Fail)
+         return;
+      
       _spriteRenderer.flipX = true;
       _velocity = 1;
       _velocity = Math.Clamp(_velocity, 0, 1);
@@ -79,10 +91,14 @@ public class PlayerAnimator : MonoBehaviour
       _animator.SetFloat("Velocity", _velocity);
    }
 
+   private void Resurrection()
+   {
+      _animator.SetBool("OnDie", false);
+   }
+
    private void Die()
    {
-      if(_player.IsDie) 
-         _animator.SetBool("OnDie", true);
+      _animator.SetBool("OnDie", true);
    }
 
    private void Falling()

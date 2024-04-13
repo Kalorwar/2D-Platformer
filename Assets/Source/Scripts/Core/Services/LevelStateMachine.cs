@@ -4,15 +4,19 @@ using UnityEngine;
 public class LevelStateMachine : MonoBehaviour
 {
     public Action<LevelState> OnStateChange;
+  [field: SerializeField] public LevelState CurrenLevelState { get; private set; }
 
-    private LevelState _currenLevelState = LevelState.Game;
+    private void Awake()
+    {
+        CurrenLevelState = LevelState.Game;
+    }
 
     public void ChangeState(LevelState state)
     {
-        if(_currenLevelState == state)
+        if(CurrenLevelState == state)
             return;
+        CurrenLevelState = state;
         OnStateChange?.Invoke(state);
-        _currenLevelState = state;
     }
 }
 
@@ -22,5 +26,6 @@ public enum LevelState
     Resume,
     Game,
     Finish,
-    Fail
+    Fail,
+    Die
 }

@@ -6,25 +6,26 @@ using Zenject;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
 {
-    public event Action OnDie;
-    
     [SerializeField] private List<RecallStone> _recallStones;
     
     private PlayerHealthUI _playerHealthUI;
+    private LevelStateMachine _levelStateMachine;
+    private PlayerConfig _playerConfig;
 
     [Inject]
-    private void Constructor(PlayerConfig config)
+    private void Constructor(PlayerConfig config, LevelStateMachine levelStateMachine)
     {
         Speed = config.Speed;
         JumpForce = config.JumpForce;
         Health = config.Health;
+        _playerConfig = config;
+        _levelStateMachine = levelStateMachine;
     }
     
     [field: SerializeField] public float Health { get; private set; }
     public float Speed { get; private set; }
     public float JumpForce { get; private set; }
     public bool IsGround { get; private set; }
-    public bool IsDie { get; private set; }
     public Rigidbody2D Rigidbody { get; private set; }
 
     private void Awake()
@@ -63,11 +64,22 @@ public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
             Die();
         }
     }
+    
+    public void Resurrection()
+    {
+        _levelStateMachine.ChangeState(LevelState.Game);
+        int indexLastRecallStones = _recallStones.Count -1;
+        RecallStone lastRecallStones = _recallStones[indexLastRecallStones];
+        transform.position = new Vector2(lastRecallStones.transform.position.x, lastRecallStones.transform.position.y +1);
+        Health = _playerConfig.Health;
+        _playerHealthUI.HeartsCountChange();
+    }
 
     public void TakeDamage(float damage)
     {
-        if(IsDie)
+        if (_levelStateMachine.CurrenLevelState == LevelState.Die || _levelStateMachine.CurrenLevelState == LevelState.Fail)
             return;
+        
         if (damage > 0)
         {
             Health -= damage;
@@ -83,7 +95,13 @@ public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
 
     private void Die()
     {
-        IsDie = true;
-        OnDie?.Invoke();
+        if (_recallStones.Count == 0)
+        {
+            _levelStateMachine.ChangeState(LevelState.Fail);
+        }
+        else
+        {
+            _levelStateMachine.ChangeState(LevelState.Die);
+        }
     }
 }
