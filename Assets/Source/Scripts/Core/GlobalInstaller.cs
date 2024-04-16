@@ -6,6 +6,12 @@ public class GlobalInstaller : MonoInstaller
     public override void InstallBindings()
     {
         BindInput();
+        SceneServiceBind();
+    }
+    
+    private void SceneServiceBind()
+    {
+        Container.Bind<SceneService>().FromComponentInNewPrefabResource("Core/Services/SceneService").AsSingle();
     }
 
     private void BindInput()

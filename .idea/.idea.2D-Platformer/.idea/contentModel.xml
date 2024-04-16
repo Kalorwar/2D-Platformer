@@ -1220,7 +1220,11 @@
             <e p="Text" t="Include" />
           </e>
           <e p="Materials" t="Include" />
-          <e p="Resources" t="Include" />
+          <e p="Resources" t="Include">
+            <e p="Core" t="Include">
+              <e p="Services" t="Include" />
+            </e>
+          </e>
           <e p="Scripts" t="Include">
             <e p="Core" t="Include">
               <e p="DesktopInput.cs" t="Include" />
@@ -1243,10 +1247,12 @@
                 <e p="SceneService.cs" t="Include" />
                 <e p="TextTranslator.cs" t="Include" />
                 <e p="TranslateService.cs" t="Include" />
+                <e p="WinPanel.cs" t="Include" />
               </e>
             </e>
             <e p="Level" t="Include">
               <e p="DeathZone.cs" t="Include" />
+              <e p="FinishStatue.cs" t="Include" />
               <e p="Ground" t="Include">
                 <e p="Ground.cs" t="Include" />
               </e>

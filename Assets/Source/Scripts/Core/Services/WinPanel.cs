@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using Zenject;
 
-public class FailPanel : MonoBehaviour
+public class WinPanel : MonoBehaviour
 {
     private SceneService _sceneService;
 
@@ -10,13 +11,19 @@ public class FailPanel : MonoBehaviour
     {
         _sceneService = sceneService;
     }
+
     public void Restart()
     {
         _sceneService.Restart();
     }
-
+    
     public void LoadMenu()
     {
         _sceneService.LoadScene("Scenes/MeinMenu");
+    }
+
+    public void LoadNextLevel()
+    {
+        _sceneService.LoadNextScene();
     }
 }

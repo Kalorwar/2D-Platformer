@@ -55,6 +55,8 @@ public class PlayerAnimator : MonoBehaviour
          Die();
       if(state == LevelState.Game)
          Resurrection();
+      if(state == LevelState.Finish)
+         Rest();
    }
 
    private void ClickRight()
@@ -99,6 +101,11 @@ public class PlayerAnimator : MonoBehaviour
    private void Die()
    {
       _animator.SetBool("OnDie", true);
+   }
+
+   private void Rest()
+   {
+      _animator.SetBool("IsRest", true);
    }
 
    private void Falling()
