@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneService : MonoBehaviour
@@ -6,6 +7,11 @@ public class SceneService : MonoBehaviour
     public void LoadScene(string name)
     {
         SceneManager.LoadScene(name);
+    }
+    
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene("Scenes/MeinMenu");
     }
     
     public void LoadNextScene()

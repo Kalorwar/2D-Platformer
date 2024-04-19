@@ -32,6 +32,19 @@ public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
     {
         Rigidbody = GetComponent<Rigidbody2D>();
         _playerHealthUI = GetComponent<PlayerHealthUI>();
+        
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    private void OnEnable()
+    {
+        _levelStateMachine.OnStateChange += LevelStateHandle;
+    }
+
+    private void OnDisable()
+    {
+        _levelStateMachine.OnStateChange -= LevelStateHandle;
     }
 
     private void OnTriggerStay2D(Collider2D collider)
@@ -64,7 +77,7 @@ public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
             Die();
         }
     }
-    
+
     public void Resurrection()
     {
         _levelStateMachine.ChangeState(LevelState.Game);
@@ -91,6 +104,20 @@ public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
             throw new ArgumentException("Damage must be positive");
         }
         _playerHealthUI.HeartsCountChange();
+    }
+
+    private void LevelStateHandle(LevelState state)
+    {
+        if (_levelStateMachine.CurrenLevelState == LevelState.Game)
+        {
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
+        }
+        else
+        {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+        }
     }
 
     private void Die()

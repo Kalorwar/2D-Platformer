@@ -61,24 +61,24 @@ public class PlayerAnimator : MonoBehaviour
 
    private void ClickRight()
    {
-      if (_levelStateMachine.CurrenLevelState == LevelState.Die || _levelStateMachine.CurrenLevelState == LevelState.Fail)
-         return;
-      
-      _spriteRenderer.flipX = false; 
-      _velocity = 1;
-      _velocity = Math.Clamp(_velocity, 0, 1);
-      _animator.SetFloat("Velocity", _velocity);
+      if (_levelStateMachine.CurrenLevelState == LevelState.Game)
+      {
+         _spriteRenderer.flipX = false;
+         _velocity = 1;
+         _velocity = Math.Clamp(_velocity, 0, 1);
+         _animator.SetFloat("Velocity", _velocity);
+      }
    }
 
    private void ClickLeft()
    {
-      if (_levelStateMachine.CurrenLevelState == LevelState.Die || _levelStateMachine.CurrenLevelState == LevelState.Fail)
-         return;
-      
-      _spriteRenderer.flipX = true;
-      _velocity = 1;
-      _velocity = Math.Clamp(_velocity, 0, 1);
-      _animator.SetFloat("Velocity", _velocity);
+      if (_levelStateMachine.CurrenLevelState == LevelState.Game)
+      {
+         _spriteRenderer.flipX = true;
+         _velocity = 1;
+         _velocity = Math.Clamp(_velocity, 0, 1);
+         _animator.SetFloat("Velocity", _velocity);
+      }
    }
    
    private void GroundCheck()
@@ -120,6 +120,7 @@ public class PlayerAnimator : MonoBehaviour
 
    private void Jump()
    {
-      _animator.SetBool("OnClickUp", true);
+      if (_levelStateMachine.CurrenLevelState == LevelState.Game) 
+         _animator.SetBool("OnClickUp", true);
    }
 }

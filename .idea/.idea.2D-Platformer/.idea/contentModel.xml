@@ -1224,6 +1224,8 @@
             <e p="Core" t="Include">
               <e p="Services" t="Include" />
             </e>
+            <e p="Player" t="Include" />
+            <e p="UI" t="Include" />
           </e>
           <e p="Scripts" t="Include">
             <e p="Core" t="Include">
@@ -1235,19 +1237,13 @@
               <e p="MobileInput.cs" t="Include" />
               <e p="MovementHandler.cs" t="Include" />
               <e p="Services" t="Include">
-                <e p="FadePanel.cs" t="Include" />
-                <e p="FailPanel.cs" t="Include" />
                 <e p="IPause.cs" t="Include" />
-                <e p="LevelCell.cs" t="Include" />
-                <e p="LevelData.cs" t="Include" />
-                <e p="LevelProgress.cs" t="Include" />
                 <e p="LevelStateMachine.cs" t="Include" />
+                <e p="MenuPanel.cs" t="Include" />
+                <e p="PanelService.cs" t="Include" />
                 <e p="PauseService.cs" t="Include" />
                 <e p="SaveService.cs" t="Include" />
                 <e p="SceneService.cs" t="Include" />
-                <e p="TextTranslator.cs" t="Include" />
-                <e p="TranslateService.cs" t="Include" />
-                <e p="WinPanel.cs" t="Include" />
               </e>
             </e>
             <e p="Level" t="Include">
@@ -1256,10 +1252,17 @@
               <e p="Ground" t="Include">
                 <e p="Ground.cs" t="Include" />
               </e>
+              <e p="SecretChest.cs" t="Include" />
               <e p="Trap.cs" t="Include" />
             </e>
             <e p="Menu" t="Include">
+              <e p="FadePanel.cs" t="Include" />
+              <e p="FailPanel.cs" t="Include" />
+              <e p="LevelCell.cs" t="Include" />
+              <e p="LevelData.cs" t="Include" />
+              <e p="LevelProgress.cs" t="Include" />
               <e p="MeinMenu.cs" t="Include" />
+              <e p="WinPanel.cs" t="Include" />
             </e>
             <e p="Player" t="Include">
               <e p="Config" t="Include">
@@ -1282,6 +1285,7 @@
               </e>
             </e>
           </e>
+          <e p="Sounds" t="Include" />
           <e p="Sprites" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">

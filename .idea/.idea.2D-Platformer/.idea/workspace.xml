@@ -21,22 +21,48 @@
   <component name="ChangeListManager">
     <list default="true" id="d01d7acb-32f4-489d-8f3f-e6e179a87481" name="Default Changelist" comment="Added DeathZone, PlayerDie and TrapDamage">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sign 01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sign 01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Statue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Statue.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Golden.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Golden.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Animations/Text/TipFadeIn.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Animations/Text/TipFadeIn.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Animations/Text/TipFadeOut.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Animations/Text/TipFadeOut.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Resources/FadePanel.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Resources/FadePanel.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Resources/FailPanel.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Resources/FailPanel.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Resources/Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Resources/Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Resources/WinPanel.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Resources/WinPanel.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/DesktopInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Core/DesktopInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/GlobalInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Core/GlobalInstaller.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/IInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Core/IInput.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/MobileInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Core/MobileInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/FadePanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/FadePanel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/FailPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/FailPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/FadePanel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/FadePanel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/FailPanel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/FailPanel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelCell.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelCell.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelProgress.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelProgress.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/SaveService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/SaveService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/SceneService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/SceneService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/TextTranslator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/TextTranslator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/TranslateService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/TranslateService.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/WinPanel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/WinPanel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Level/FinishStatue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Level/FinishStatue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Player/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Player/PlayerAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Player/PlayerAnimator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +74,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Source/Scripts/Level/FinishStatue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../25 2D/Assets/Source/Scripts/Player/PlayerHealth.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Scripts/Level/DeathZone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Scripts/Menu/MeinMenu.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -67,25 +94,29 @@
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelProgress.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/TranslateService.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/TextTranslator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/SaveService.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Menu/MeinMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/RecallStone.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelCell.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/MovementHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/IHitable.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelStateMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/GameplaySceneInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/GlobalInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/FailPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/FadePanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/SceneService.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/WinPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Level/FinishStatue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Level/SecretChest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/SaveService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Menu/FadePanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/IInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/MobileInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/DesktopInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Level/FinishStatue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/SceneService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/GameMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/PlayerAnimator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/PanelService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/GlobalInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/Player.cs" />
       </list>
     </option>
   </component>
@@ -106,6 +137,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/GamePC\Platformer.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\Unity\Platformer\2D-Platformer\GamePC" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -148,6 +187,9 @@
       <workItem from="1712930312859" duration="5785000" />
       <workItem from="1712997064252" duration="7411000" />
       <workItem from="1713257805021" duration="7764000" />
+      <workItem from="1713429615210" duration="1454000" />
+      <workItem from="1713525483748" duration="3417000" />
+      <workItem from="1713529881412" duration="323000" />
     </task>
     <task id="LOCAL-00001" summary="Added DeathZone, PlayerDie and TrapDamage">
       <created>1712168305719</created>
@@ -186,10 +228,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="794" y="261" key="RiderGenerateDialog/0.40.1920.1040/-1920.42.1920.1038@0.40.1920.1040" timestamp="1712322856091" />
-    <state x="92" y="132" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1713258245776">
+    <state x="92" y="132" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1713526824817">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="92" y="132" width="1736" height="856" key="VCS.FileHistoryDialog/0.40.1920.1040/-1920.42.1920.1038@0.40.1920.1040" timestamp="1713258245776" />
+    <state x="92" y="132" width="1736" height="856" key="VCS.FileHistoryDialog/0.40.1920.1040/-1920.42.1920.1038@0.40.1920.1040" timestamp="1713526824817" />
     <state x="552" y="293" key="Vcs.Push.Dialog.v2" timestamp="1712168315678">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>

@@ -61,19 +61,12 @@ public class SaveService : MonoBehaviour
 [Serializable]
 public class FileSaveData : SaveData
 {
-
-    public Language Language { get; private set; }
     public Dictionary<string, SaveData> Datas = new Dictionary<string, SaveData>();
     public FileSaveData()
     {
 
     }
 
-    public void UpdateLanguage(Language language)
-    {
-        Language = language;
-    }
-    
     public bool TryGetData<T>(string id, out T data) where T : SaveData
     {
         foreach (SaveData saveData in Datas.Values)

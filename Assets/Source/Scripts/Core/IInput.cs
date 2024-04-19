@@ -6,5 +6,5 @@ public interface IInput
     public event Action OnClickLeft;
     public event Action OnClickRight;
     public event Action OnButtonUp;
-    public event Action OnButtonAction;
+    public event Action OnButtonMenu;
 }
