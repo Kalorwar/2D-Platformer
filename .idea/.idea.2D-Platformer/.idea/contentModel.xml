@@ -1229,13 +1229,19 @@
           </e>
           <e p="Scripts" t="Include">
             <e p="Core" t="Include">
-              <e p="DesktopInput.cs" t="Include" />
               <e p="GameplaySceneInstaller.cs" t="Include" />
               <e p="GlobalInstaller.cs" t="Include" />
-              <e p="IInput.cs" t="Include" />
-              <e p="IMovable.cs" t="Include" />
-              <e p="MobileInput.cs" t="Include" />
-              <e p="MovementHandler.cs" t="Include" />
+              <e p="Input" t="Include">
+                <e p="DesktopInput.cs" t="Include" />
+                <e p="MobileInput.cs" t="Include" />
+                <e p="MovementHandler.cs" t="Include" />
+              </e>
+              <e p="Interfaces" t="Include">
+                <e p="IGroundChecker.cs" t="Include" />
+                <e p="IHitable.cs" t="Include" />
+                <e p="IInput.cs" t="Include" />
+                <e p="IMovable.cs" t="Include" />
+              </e>
               <e p="Services" t="Include">
                 <e p="IPause.cs" t="Include" />
                 <e p="LevelStateMachine.cs" t="Include" />
@@ -1268,8 +1274,6 @@
               <e p="Config" t="Include">
                 <e p="PlayerConfig.cs" t="Include" />
               </e>
-              <e p="IGroundChecker.cs" t="Include" />
-              <e p="IHitable.cs" t="Include" />
               <e p="Player.cs" t="Include" />
               <e p="PlayerAnimator.cs" t="Include" />
               <e p="RecallStone.cs" t="Include" />
@@ -1285,7 +1289,6 @@
               </e>
             </e>
           </e>
-          <e p="Sounds" t="Include" />
           <e p="Sprites" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">

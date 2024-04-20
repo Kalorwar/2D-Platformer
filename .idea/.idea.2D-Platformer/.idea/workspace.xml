@@ -23,46 +23,29 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Golden.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Golden.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MeinMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MeinMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Resources/FadePanel.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Resources/FadePanel.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Resources/FailPanel.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Resources/FailPanel.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Resources/Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Resources/Player.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Resources/WinPanel.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Resources/WinPanel.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/DesktopInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Core/DesktopInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/IInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Core/IInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/MobileInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Core/MobileInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/FadePanel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/FadePanel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/FailPanel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/FailPanel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelCell.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelCell.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelProgress.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelProgress.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/SaveService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/SaveService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/SceneService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/SceneService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/TextTranslator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/TextTranslator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/TranslateService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/TranslateService.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/WinPanel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/WinPanel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Level/FinishStatue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Level/FinishStatue.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Player/PlayerAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Player/PlayerAnimator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Resources/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Resources/Player/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/DesktopInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/DesktopInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/IInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/IInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/IMovable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/IMovable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/MobileInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/MobileInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/MovementHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/MovementHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Player/IGroundChecker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Player/IGroundChecker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Player/IHitable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Player/IHitable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Sounds.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +172,8 @@
       <workItem from="1713257805021" duration="7764000" />
       <workItem from="1713429615210" duration="1454000" />
       <workItem from="1713525483748" duration="3417000" />
-      <workItem from="1713529881412" duration="323000" />
+      <workItem from="1713529881412" duration="835000" />
+      <workItem from="1713602455961" duration="619000" />
     </task>
     <task id="LOCAL-00001" summary="Added DeathZone, PlayerDie and TrapDamage">
       <created>1712168305719</created>
