@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using Zenject;
 
@@ -7,6 +8,13 @@ public class GameplaySceneInstaller : MonoInstaller
     [SerializeField] private Player _player;
     [SerializeField] private PlayerConfig _playerConfig;
     [SerializeField] private LevelStateMachine _levelStateMachine;
+
+    private void Awake()
+    {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
     public override void InstallBindings()
     {
         BindLevel();

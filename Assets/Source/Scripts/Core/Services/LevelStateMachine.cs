@@ -27,5 +27,5 @@ public enum LevelState
     Game,
     Finish,
     Fail,
-    Die
+    Resurrection
 }

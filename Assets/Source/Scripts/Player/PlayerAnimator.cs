@@ -12,7 +12,7 @@ public class PlayerAnimator : MonoBehaviour
    private LevelStateMachine _levelStateMachine;
 
    [Inject]
-   private void Conscturcor(IInput input, LevelStateMachine levelStateMachine)
+   private void Constructor(IInput input, LevelStateMachine levelStateMachine)
    {
       _input = input;
       _levelStateMachine = levelStateMachine;
@@ -51,12 +51,14 @@ public class PlayerAnimator : MonoBehaviour
 
    private void LevelStateHandle(LevelState state)
    {
-      if (state == LevelState.Die || state == LevelState.Fail)
+      if (state == LevelState.Resurrection || state == LevelState.Fail)
          Die();
       if(state == LevelState.Game)
          Resurrection();
       if(state == LevelState.Finish)
          Rest();
+      if(state ==LevelState.Pause)
+         ButtonUp();
    }
 
    private void ClickRight()
@@ -66,7 +68,7 @@ public class PlayerAnimator : MonoBehaviour
          _spriteRenderer.flipX = false;
          _velocity = 1;
          _velocity = Math.Clamp(_velocity, 0, 1);
-         _animator.SetFloat("Velocity", _velocity);
+         _animator.SetFloat(AssetsPath.AnimationPath.Velocity, _velocity);
       }
    }
 
@@ -77,50 +79,50 @@ public class PlayerAnimator : MonoBehaviour
          _spriteRenderer.flipX = true;
          _velocity = 1;
          _velocity = Math.Clamp(_velocity, 0, 1);
-         _animator.SetFloat("Velocity", _velocity);
+         _animator.SetFloat(AssetsPath.AnimationPath.Velocity, _velocity);
       }
    }
    
    private void GroundCheck()
    {
       if(_player.IsGround)
-         _animator.SetBool("OnClickUp", false);
+         _animator.SetBool(AssetsPath.AnimationPath.OnClickUp, false);
    }
 
    private void ButtonUp()
    {
       _velocity = 0;
-      _animator.SetFloat("Velocity", _velocity);
+      _animator.SetFloat(AssetsPath.AnimationPath.Velocity, _velocity);
    }
 
    private void Resurrection()
    {
-      _animator.SetBool("OnDie", false);
+      _animator.SetBool(AssetsPath.AnimationPath.OnDie, false);
    }
 
    private void Die()
    {
-      _animator.SetBool("OnDie", true);
+      _animator.SetBool(AssetsPath.AnimationPath.OnDie, true);
    }
 
    private void Rest()
    {
-      _animator.SetBool("IsRest", true);
+      _animator.SetBool(AssetsPath.AnimationPath.IsRest, true);
    }
 
    private void Falling()
    {
       if (!_player.IsGround)
-         _animator.SetBool("IsFalling", true);
+         _animator.SetBool(AssetsPath.AnimationPath.IsFalling, true);
       else
       {
-         _animator.SetBool("IsFalling", false);
+         _animator.SetBool(AssetsPath.AnimationPath.IsFalling, false);
       }
    }
 
    private void Jump()
    {
       if (_levelStateMachine.CurrenLevelState == LevelState.Game) 
-         _animator.SetBool("OnClickUp", true);
+         _animator.SetBool(AssetsPath.AnimationPath.OnClickUp, true);
    }
 }

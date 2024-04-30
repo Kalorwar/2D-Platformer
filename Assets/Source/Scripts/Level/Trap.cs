@@ -8,6 +8,7 @@ public class Trap : MonoBehaviour
         if (collision.gameObject.TryGetComponent<Player>(out Player player))
         {
             player.TakeDamage(_damage);
+            player.Rigidbody.AddForce((player.transform.position - transform.position) * 3, ForceMode2D.Impulse);
         }
     }
 }

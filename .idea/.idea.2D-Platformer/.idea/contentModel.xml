@@ -1214,7 +1214,9 @@
           </e>
         </e>
         <e p="Resources" t="Include" />
-        <e p="Scenes" t="Include" />
+        <e p="Scenes" t="Include">
+          <e p="Tutorial" t="Include" />
+        </e>
         <e p="Source" t="Include">
           <e p="Animations" t="Include">
             <e p="Text" t="Include" />
@@ -1247,8 +1249,6 @@
                 <e p="LevelStateMachine.cs" t="Include" />
                 <e p="MenuPanel.cs" t="Include" />
                 <e p="PanelService.cs" t="Include" />
-                <e p="PauseService.cs" t="Include" />
-                <e p="SaveService.cs" t="Include" />
                 <e p="SceneService.cs" t="Include" />
               </e>
             </e>
@@ -1271,6 +1271,7 @@
               <e p="WinPanel.cs" t="Include" />
             </e>
             <e p="Player" t="Include">
+              <e p="AssetsPath.cs" t="Include" />
               <e p="Config" t="Include">
                 <e p="PlayerConfig.cs" t="Include" />
               </e>
@@ -1290,6 +1291,7 @@
             </e>
           </e>
           <e p="Sprites" t="Include" />
+          <e p="URP" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Documentation" t="Include" />

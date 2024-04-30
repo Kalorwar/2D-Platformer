@@ -45,7 +45,6 @@ public class MovementHandler : IDisposable
 
     private void ClickUp()
     {
-        Debug.Log("Up");
         if (_groundChecker.IsGround && _levelStateMachine.CurrenLevelState == LevelState.Game)
             _movable.Rigidbody.velocity = new Vector2(_movable.Rigidbody.velocity.x, 1 * _movable.JumpForce);
     }

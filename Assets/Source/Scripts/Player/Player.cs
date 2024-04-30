@@ -32,9 +32,6 @@ public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
     {
         Rigidbody = GetComponent<Rigidbody2D>();
         _playerHealthUI = GetComponent<PlayerHealthUI>();
-        
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void OnEnable()
@@ -49,12 +46,12 @@ public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
 
     private void OnTriggerStay2D(Collider2D collider)
     {
-        if (collider.gameObject.TryGetComponent<Ground>(out Ground ground))
+        if (collider.gameObject.TryGetComponent(out Ground ground))
         {
             IsGround = true;
         }
 
-        if (collider.gameObject.TryGetComponent<RecallStone>(out RecallStone recallStone))
+        if (collider.gameObject.TryGetComponent(out RecallStone recallStone))
         {
             if(_recallStones.Contains(recallStone))
                 return;
@@ -64,7 +61,7 @@ public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
     
     private void OnTriggerExit2D(Collider2D collider)
     {
-        if (collider.gameObject.TryGetComponent<Ground>(out Ground ground))
+        if (collider.gameObject.TryGetComponent(out Ground ground))
         {
             IsGround = false;
         }
@@ -72,7 +69,7 @@ public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.TryGetComponent<DeathZone>(out DeathZone deathZone))
+        if (collision.gameObject.TryGetComponent(out DeathZone deathZone))
         {
             Die();
         }
@@ -90,7 +87,7 @@ public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
 
     public void TakeDamage(float damage)
     {
-        if (_levelStateMachine.CurrenLevelState == LevelState.Die || _levelStateMachine.CurrenLevelState == LevelState.Fail)
+        if (_levelStateMachine.CurrenLevelState == LevelState.Resurrection || _levelStateMachine.CurrenLevelState == LevelState.Fail)
             return;
         
         if (damage > 0)
@@ -128,7 +125,7 @@ public class Player : MonoBehaviour, IHitable, IMovable, IGroundChecker
         }
         else
         {
-            _levelStateMachine.ChangeState(LevelState.Die);
+            _levelStateMachine.ChangeState(LevelState.Resurrection);
         }
     }
 }

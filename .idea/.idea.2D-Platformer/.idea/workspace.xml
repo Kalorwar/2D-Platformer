@@ -23,29 +23,31 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D-Platformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MeinMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MeinMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Platformer - Village Props/Script/Chest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Platformer - Village Props/Script/Chest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MeinMenu.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MeinMenu.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Resources/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Resources/Player/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/DesktopInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/DesktopInput.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/IInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/IInput.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/IMovable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/IMovable.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/MobileInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/MobileInput.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/MovementHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/MovementHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Player/IGroundChecker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Player/IGroundChecker.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Player/IHitable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Player/IHitable.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Sounds.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/GameplaySceneInstaller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/GameplaySceneInstaller.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/GlobalInstaller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/GlobalInstaller.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Input/MovementHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Input/MovementHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/IPause.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/IPause.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelStateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelStateMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/PauseService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/PauseService.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/SaveService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/SaveService.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/SceneService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/SceneService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Level/SecretChest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Level/SecretChest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Level/Trap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Level/Trap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Menu/FadePanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Menu/FadePanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Menu/MeinMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Menu/MeinMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Player/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Player/PlayerAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Player/PlayerAnimator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Player/RecallStone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Player/RecallStone.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Level/Trap.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/UI/Tips/TipsTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/UI/Tips/PlayerTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/UI/Tips/TipsAnimator.cs" />
@@ -72,34 +73,39 @@
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/UI/Player/PlayerHealthUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/Config/PlayerConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/PauseService.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/IPause.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelProgress.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/TranslateService.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/TextTranslator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Menu/MeinMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/RecallStone.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelCell.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/MovementHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/IHitable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelStateMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/GameplaySceneInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/FailPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/FadePanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/WinPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Level/FinishStatue.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Level/SecretChest.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/SaveService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Menu/FadePanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/IInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/MobileInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/DesktopInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/SceneService.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/GameMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/PlayerAnimator.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/PanelService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/GlobalInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Menu/MeinMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Input/MovementHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/RecallStone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Interfaces/IHitable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Menu/FadePanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Cainos/Pixel Art Platformer - Village Props/Script/Chest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/LevelStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Level/SecretChest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/GameplaySceneInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/GlobalInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/PlayerAnimator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Player/AssetsPath.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/SceneService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Level/Trap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Scripts/Core/Services/PauseService.cs" />
       </list>
     </option>
   </component>
@@ -174,6 +180,9 @@
       <workItem from="1713525483748" duration="3417000" />
       <workItem from="1713529881412" duration="835000" />
       <workItem from="1713602455961" duration="619000" />
+      <workItem from="1713639520756" duration="346000" />
+      <workItem from="1713801833284" duration="7556000" />
+      <workItem from="1714465763350" duration="3796000" />
     </task>
     <task id="LOCAL-00001" summary="Added DeathZone, PlayerDie and TrapDamage">
       <created>1712168305719</created>

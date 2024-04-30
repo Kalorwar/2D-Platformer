@@ -1,5 +1,4 @@
-﻿using System;
-using Cainos.PixelArtPlatformer_VillageProps;
+﻿using Cainos.PixelArtPlatformer_VillageProps;
 using UnityEngine;
 using DG.Tweening;
 
@@ -15,7 +14,7 @@ public class SecretChest : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.TryGetComponent<Player>(out Player player))
+        if (collider.TryGetComponent(out Player player))
         {
             _chest.Open();
         }
@@ -23,10 +22,10 @@ public class SecretChest : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collider)
     {
-        if (collider.TryGetComponent<Player>(out Player player))
+        if (collider.TryGetComponent(out Player player))
         {
             _chest.Close();
-            _chest.transform.DOScale(0, 1).OnComplete(() => Destroy(gameObject));
+            transform.DOScale(0, 1).OnComplete(() => Destroy(gameObject));
         }
     }
 }

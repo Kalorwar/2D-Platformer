@@ -11,7 +11,7 @@ public class GlobalInstaller : MonoInstaller
     
     private void SceneServiceBind()
     {
-        Container.Bind<SceneService>().FromComponentInNewPrefabResource("Core/Services/SceneService").AsSingle();
+        Container.Bind<SceneService>().FromComponentInNewPrefabResource(AssetsPath.ServicesPath.SceneService).AsSingle();
     }
 
     private void BindInput()

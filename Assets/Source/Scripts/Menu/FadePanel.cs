@@ -2,7 +2,6 @@
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
-using Unity.VisualScripting;
 using Zenject;
 
 public class FadePanel : MonoBehaviour
@@ -11,13 +10,13 @@ public class FadePanel : MonoBehaviour
     [SerializeField] private FailPanel _failPanel;
     [SerializeField] private WinPanel _winPanel;
     private Image _image;
-    private IHitable _ihitable;
+    private IHitable _hitable;
     private LevelStateMachine _levelStateMachine;
 
     [Inject]
-    private void Constructor(IHitable ihitable, LevelStateMachine levelStateMachine)
+    private void Constructor(IHitable hitable, LevelStateMachine levelStateMachine)
     {
-        _ihitable = ihitable;
+        _hitable = hitable;
         _levelStateMachine = levelStateMachine;
     }
 
@@ -44,7 +43,7 @@ public class FadePanel : MonoBehaviour
             StartCoroutine(PanelActiveTick(_failPanel.gameObject));
         }
 
-        if (state == LevelState.Die)
+        if (state == LevelState.Resurrection)
         {
             FadeIn();
             StartCoroutine(ResurrectionTick());
@@ -65,7 +64,7 @@ public class FadePanel : MonoBehaviour
     private IEnumerator ResurrectionTick()
     {
         yield return new WaitForSeconds(_duration);
-        _ihitable.Resurrection();
+        _hitable.Resurrection();
     }
 
     private IEnumerator PanelActiveTick(GameObject panel)
